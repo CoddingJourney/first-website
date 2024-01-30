@@ -31,11 +31,10 @@
     text-align:center;
 }
 .banner{
-    width:100%;
+           width:100%;
     min-height: 70vh;
       background: url('../images/banner.jpg') no-repeat;                                                 /*.. le afu vako file bata ek step bira lerw aaunxa jastii yo fill css ko style maa ca vane photo chi images maa xa  so yesle style bata bira aayer images lai detect garxa */
     background-size:cover;                                    /* cover comand le image lai full display maa show garxa */
-    position: relative;
 
 
 }
@@ -43,8 +42,8 @@
     width:70%;
     color:white;
     position:absolute;
-    top:50%;
-    left:30%;
+    top:40%;
+    left:20%;
     text-align:left;
     transform:translate (-50%,-50%);
 }
@@ -181,7 +180,8 @@ font-size:40px;
         padding-right:15px; 
         margin-right:auto;
         margin-left:auto;
-}
+      display: flex;
+  }
 @media(min-width: 768px){
     .container{
         width:750px;
@@ -210,11 +210,12 @@ font-size:40px;
 }
 .ad-banner{
     background:#222;
-    padding:10p;
+    padding:10px;
 }
 .img-responsive{
     max-width:100%;
     height:auto;
+ 
 }
 footer{
     background: #5f0f40;
@@ -241,8 +242,9 @@ footer h3{
     width:100%;
     min-height: 65vh;
       background: url('../images/ib1.jpg') no-repeat;
-      background-size: cover;                 
-    position: relative;
+      background-size: cover; 
+       
+              
 
 
 }
