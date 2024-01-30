@@ -31,12 +31,13 @@
     text-align:center;
 }
 .banner{
-           width:100%;
+         width:100%;
     min-height: 70vh;
       background: url('../images/banner.jpg') no-repeat;                                                 /*.. le afu vako file bata ek step bira lerw aaunxa jastii yo fill css ko style maa ca vane photo chi images maa xa  so yesle style bata bira aayer images lai detect garxa */
     background-size:cover;                                    /* cover comand le image lai full display maa show garxa */
-    display: flex;
 
+    display: flex;
+    position:relative;
 }
 .text-block{
     width:70%;
