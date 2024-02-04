@@ -40,12 +40,13 @@
   /* cover comand le image lai full display maa show garxa */
 
   display: flex;
-  position: relative;
+
 }
 
 .text-block {
   width: 70%;
   color: white;
+  position: absolute;
   top: 40%;
   left: 20%;
   text-align: left;
