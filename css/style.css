@@ -44,7 +44,7 @@
 
 .text-block {
   width: 70%;
-  color: white;
+  color: rgb(231, 223, 223);
   position: absolute;
   top: 40%;
   left: 20%;
@@ -266,7 +266,8 @@ footer ul li {
   list-style: none;
   /* IN this programming the display tag is use to make the text horizental */
   padding: 10px 10px;
-  position: relative;
+
+  position: flex;
 }
 
 footer h3 {
